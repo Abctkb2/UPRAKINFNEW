@@ -1,0 +1,116 @@
+html {
+    font-family: Roboto, sans-serif;
+}
+main {
+    background-color: aliceblue;
+    }
+header {
+    background-color: black; color: white; text-align: center; width: 100%; position: sticky; top: 0; padding: 10px 16px;
+    }
+p {
+    font-size: 20px;
+    }
+ul {
+    justify-content: right;
+    }
+div {
+    font-size: 25px;
+    }
+h1 {
+    font-size: 60px;
+    }
+h2 {
+    font-size: 40px;
+    }
+nav {
+    display: flex; flex-direction: right; justify-content: space-evenly;
+    }
+.product {
+    display: flex; flex-direction: right; justify-content: space-evenly;
+    }
+ul {
+    list-style-type: none;
+}
+.flag {
+    float: left; height: 125px; width: 150px;
+}
+.logo {
+    float: right; height: 125px; width: 150px;
+}
+.center {
+    height: 200px; width: 225px;
+}
+footer {
+    font-size: 20px; text-align: center; background-color: black; color: white; position-anchor: auto; bottom: 0; height: 200px; width: 100%;
+    }
+.foots {
+    position: absolute; bottom: -200px; width: 100%; background-color: black; color: white;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+    font-size: 30px;
+    }
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+footer a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    }
+footer a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    }
+footer a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    }
+footer a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+.prodcont {
+    display: flex;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-direction: right;
+    margin: 10px;
+    padding: 20px;
+}
+.col1 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.prodcont img {
+    width: 30px;
+    height: 50px;
+}
+section {
+    width: 100%;
+}
+article {
+    width: 100%;
+}
